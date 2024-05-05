@@ -53,14 +53,16 @@ const JobContainer = () => {
             <JobsFilter
                 jobsData={jobsData}
             />
-            <div className={styles['job-card-wrapper']}>
-                {
-                    jobsData?.map((jobData, index) => {
-                        return (
-                            <JobCard jobData={jobData} key={jobData.jdUid} />
-                        )
-                    })
-                }
+            <div style={{ display: 'flex', justifyContent: 'center', width: '60%', marginRight: '20%', marginLeft: '20%' }}>
+                <div className={styles['job-card-wrapper']}>
+                    {
+                        jobsData?.map((jobData, index) => {
+                            return (
+                                <JobCard jobData={jobData} key={jobData.jdUid} />
+                            )
+                        })
+                    }
+                </div>
             </div>
         </>
     )

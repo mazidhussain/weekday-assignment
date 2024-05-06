@@ -5,6 +5,8 @@ This repository contains the source code for a React.js project. Follow the step
 
 **Prerequisites**
 Node.js and npm installed on your machine.
+
+
 **1. Getting Started**
 Clone this repository to your local machine using the following command: git clone <repository-url>
 
